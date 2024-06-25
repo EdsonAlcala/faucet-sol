@@ -17,7 +17,7 @@ contract FaucetScript is Script {
     address internal deployer;
     uint64 internal SEPOLIA_NETWORK_ID = 11155111;
     uint64 internal INITIAL_ETH_AMOUNT = 1 ether;
-    address internal OPERATOR_ADDRESS = 0x219d8795Edbc4c6924B5d3C3CD92882516a45A2F;
+    address internal OPERATOR_ADDRESS = 0x5309c4198897B50E5019934198e9106C4a184281;
 
     function run() public {
         console2.log("Deploying Faucet contract");
